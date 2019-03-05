@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/kamoku1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="科目" />
+
+    <TextView
+        android:id="@+id/Math"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数学"
+        android:textSize="21sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登録する時間を入力してください (ミリ秒)" />
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="sample: 50000 mill sec"
+        android:inputType="number"
+        android:text="10000" />
+
+    <ProgressBar
+        android:id="@+id/progress1"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10000"
+        android:progress="9000" />
+
+
+    <TextView
+        android:id="@+id/kamoku2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="科目" />
+
+    <TextView
+        android:id="@+id/Jap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数学"
+        android:textSize="21sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登録する時間を入力してください (ミリ秒)" />
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="sample: 50000 mill sec"
+        android:inputType="number"
+        android:text="5000" />
+
+    <ProgressBar
+        android:id="@+id/progress2"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="5000"
+        android:progress="5000" />
+
+
+    <TextView
+        android:id="@+id/kamoku3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="科目" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:text="数学" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登録する時間を入力してください (ミリ秒)" />
+
+    <EditText
+        android:id="@+id/EditText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="sample: 50000 mill sec"
+        android:inputType="number"
+        android:text="12000" />
+
+    <ProgressBar
+        android:id="@+id/progress3"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="12000"
+        android:progress="12000" />
+
+    <Button
+        android:id="@+id/hogeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="save"
+        android:text="スタート" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="合計" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="27000" />
+
+    <ProgressBar
+        android:id="@+id/progresstotal"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="27000"
+        android:progress="26000" />
+</LinearLayout>
